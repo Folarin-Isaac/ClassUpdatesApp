@@ -1,0 +1,20 @@
+ext {
+    coroutinesVersion = '1.6.1-native-mt'
+    coroutinesDependencies = [
+            coroutines    : "org.jetbrains.kotlinx:kotlinx-coroutines-android:${coroutinesVersion}",
+            coroutinescore: "org.jetbrains.kotlinx:kotlinx-coroutines-core:${coroutinesVersion}"
+    ]
+
+    okhttpVersion = '5.0.0-alpha.7'
+    okhttpDependencies = [
+            okhttp           : "com.squareup.okhttp3:okhttp:${okhttpVersion}",
+            okhttpinterceptor: "com.squareup.okhttp3:logging-interceptor:${okhttpVersion}"
+    ]
+
+    retrofitVersion = '2.9.0'
+    retrofitDependencies = [
+            retrofit     : "com.squareup.retrofit2:retrofit:${retrofitVersion}",
+            gsonconverter: "com.squareup.retrofit2:converter-gson:${retrofitVersion}"
+
+    ]
+}
